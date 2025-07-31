@@ -11,7 +11,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "aravbucket"
+    bucket         = "bucketarav07"
     key            = "Ansible.tfstate"
     region         = "us-east-1"
     # dynamodb_table = "-terraform-locks"
